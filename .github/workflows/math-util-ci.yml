@@ -16,7 +16,7 @@ jobs:
     - name: Set up JDK 19 - Nhờ server Mỹ cài giùm JDK
       uses: actions/setup-java@v3
       with:
-        java-version: '19'
+        java-version: '20'
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven - Biên dịch, chạy Unit Test xanh đỏ, nhận về .jar hoặc email báo lỗi
